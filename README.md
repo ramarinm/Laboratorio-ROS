@@ -1,10 +1,10 @@
 # Laboratorio 3: Robótica de Desarrollo-Introducción a ROS
 Integrantes: Fernando Cárdenas Acosta & Raúl Ignacio Marín Medina
 
-##TurtleSim en MATLAB:
+## TurtleSim en MATLAB:
 
-###dekndekde
+### dekndekde
 
-##TurtleSim en Python: 
+## TurtleSim en Python: 
 
 
