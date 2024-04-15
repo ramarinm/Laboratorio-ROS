@@ -2,11 +2,13 @@
 Integrantes: Fernando Cárdenas Acosta & Raúl Ignacio Marín Medina
 
 ## Objetivo del Laboratorio:
-Este laboratorio tiene como objetivo principal el familiarizarse con el proceso de setup, uso e implementación de conceptos básicos en ROS (Robotic Operative System) así como el uso de comandos fundamentales de ROS en conjunto a diferentes softwares como MATLAB a través de conexión de nodos y el uso de Python para el movimiento interactivo de la tortuga del repositorio "Hello_Turtle". La tor
+Este laboratorio tiene como objetivo principal el familiarizarse con el proceso de setup, uso e implementación de conceptos básicos en ROS (Robotic Operative System) así como el uso de comandos fundamentales de ROS en conjunto a diferentes softwares como MATLAB a través de conexión de nodos y el uso de Python para el movimiento interactivo de la tortuga del repositorio "Hello_Turtle". La tortuga tendrá que moverse con ciertos comandos del teclado y volver a su posición original. De igual manera, se debe visualizar mediante ROS. 
 
 ## TurtleSim en MATLAB:
 
+Después de realizar la instalación de Matlab para el sistema operativo Linux, se abre el terminal donde se ingresa el comando "roscore", este servirá para iniciar el modo maestro, este inicializa los parámetros para el servido ROS y los nodos, los cuales son necesarios para mandar y ejecutar líneas de código. Para la segunda terminal, se escribe "rosrun turtlesim turtlesim.node". Esta línea en terminal ejecuta la librería de turtlesim, al ejecutar este terminal aparecerá la interfaz gráfica de la tortuga. Esta se controla mediante el acople con el software Matlab y el comando "rosinit".
 
+En el código Matlab se crea un rospublisher() y rosmessage() el cual servirá para modificar los parámetros de la posición y velocidad de la tortuga, asímismo, nos permite enviar esta información mediante el modo maetsro a la interfaz en ROS y visualizar el movimiento de la tortuga tanto en posición como en giro. 
 
 * Movimiento de la Tortuga en la dirección X:
 ![WhatsApp Image 2024-04-14 at 23 26 21_cf6b3fe5](https://github.com/ramarinm/Laboratorio-ROS/assets/124843458/7366cb7e-41fd-41c3-a587-41ded4d33a13)
