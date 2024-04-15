@@ -8,19 +8,19 @@ Este laboratorio tiene como objetivo principal el familiarizarse con el proceso 
 
 
 
-*Movimiento de la Tortuga en la dirección X:
+* Movimiento de la Tortuga en la dirección X:
 ![WhatsApp Image 2024-04-14 at 23 26 21_cf6b3fe5](https://github.com/ramarinm/Laboratorio-ROS/assets/124843458/7366cb7e-41fd-41c3-a587-41ded4d33a13)
 
-*Movimiento de la Tortuga en la dirección X e Y:
+* Movimiento de la Tortuga en la dirección X e Y:
 ![WhatsApp Image 2024-04-14 at 23 26 48_d03158db](https://github.com/ramarinm/Laboratorio-ROS/assets/124843458/6df1181e-be0e-4979-9a72-760b4fab492e)
 
-*Movimiento de la Tortuga en la dirección X e Y, adicionalmente, gira con cierta velocidad angular VelMsg.Angular.Z():
+* Movimiento de la Tortuga en la dirección X e Y, adicionalmente, gira con cierta velocidad angular VelMsg.Angular.Z():
 ![WhatsApp Image 2024-04-14 at 23 27 22_bfcefdc9](https://github.com/ramarinm/Laboratorio-ROS/assets/124843458/8eb321a2-f699-4861-96bc-b97120130cd9)
 
-*La función turtlesim/Pose devuelve el valor de la pose, es decir, posición X e Y en el espacio más el valor de su posición angular:
+* La función turtlesim/Pose devuelve el valor de la pose, es decir, posición X e Y en el espacio más el valor de su posición angular:
 ![WhatsApp Image 2024-04-14 at 23 28 06_bf186573](https://github.com/ramarinm/Laboratorio-ROS/assets/124843458/fc29c635-24ff-4577-92ab-714300c3631a)
 
-*La función rosshutdown servirá para salir del modo maestro de Matlab. 
+* La función rosshutdown servirá para salir del modo maestro de Matlab. 
 ![WhatsApp Image 2024-04-14 at 23 28 36_2c7d6ba7](https://github.com/ramarinm/Laboratorio-ROS/assets/124843458/a9355ff3-cb43-4c70-89af-1aa36e579704)
 
 ## Código Matlab turtlesim_1.m
