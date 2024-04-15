@@ -21,7 +21,7 @@ Pose
 Shutdown
 ![WhatsApp Image 2024-04-14 at 23 28 36_2c7d6ba7](https://github.com/ramarinm/Laboratorio-ROS/assets/124843458/a9355ff3-cb43-4c70-89af-1aa36e579704)
 
-### Código Matlab turtlesim_1.m
+## Código Matlab turtlesim_1.m
 
 %%
 rosinit; %Conexi´on con nodo maestro
@@ -48,7 +48,7 @@ rosshutdown
 
 ## TurtleSim en Python: 
 
-### Código Python para archivo myTeleopKey.py
+## Código Python para archivo myTeleopKey.py
 
 #!/usr/bin/env 
 
