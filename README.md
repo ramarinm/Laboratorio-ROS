@@ -25,6 +25,8 @@ En el código Matlab se crea un rospublisher() y rosmessage() el cual servirá p
 * La función rosshutdown servirá para salir del modo maestro de Matlab. 
 ![WhatsApp Image 2024-04-14 at 23 28 36_2c7d6ba7](https://github.com/ramarinm/Laboratorio-ROS/assets/124843458/a9355ff3-cb43-4c70-89af-1aa36e579704)
 
+Por otra parte, para describir la pose de la tortuga se puede usar la función rossubscriber("/turtle1/pose",'turtlesim/Pose'), la cual indicará el valor de la posición en X, Y y el ángulo de giro theta.
+
 ## Código Matlab turtlesim_1.m
 
     %%
